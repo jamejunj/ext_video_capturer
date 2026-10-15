@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="common.css">
+<style>
+    body { width: 1280px; height: 800px; display: flex; flex-direction: column; align-items: center; padding-top: 64px; gap: 14px; text-align: center; }
+    h1 { font-size: 52px; }
+    .lead { font-size: 20px; max-width: 640px; }
+    /* Zoomed crop of the first capture card (x 17-462, y 118-412 in popup.png) */
+    .zoom {
+        margin-top: 34px;
+        width: 890px;
+        height: 540px;
+        border-radius: 22px;
+        background: url(popup.png) -34px -284px / 1024px 1190px no-repeat;
+        box-shadow: 0 0 0 1px rgba(255, 255, 255, .12), 0 40px 90px rgba(0, 0, 0, .55);
+        position: relative;
+    }
+    .ring {
+        position: absolute;
+        left: 518px; top: 460px;
+        width: 360px; height: 72px;
+        border: 3px solid #e0b3ff;
+        border-radius: 999px;
+        box-shadow: 0 0 0 8px rgba(224, 179, 255, .18), 0 0 40px rgba(224, 179, 255, .5);
+    }
+    .tag {
+        position: absolute;
+        left: 600px; top: 396px;
+        padding: 8px 16px;
+        border-radius: 10px;
+        background: #fff;
+        color: #24164a;
+        font-weight: 650;
+        font-size: 17px;
+    }
+</style></head>
+<body>
+    <h1>Copy or save in <em>one click</em></h1>
+    <p class="lead">Paste straight into chat, docs, or your image editor — or download a PNG at the video's native size.</p>
+    <div class="zoom"><div class="ring"></div></div>
+</body></html>
