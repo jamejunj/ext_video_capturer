@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Video Capturer",
     "description": "Capture the current frame of any HTML5 video on a page as a full-resolution PNG. Save or copy it to the clipboard in one click.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "action": {
       "default_popup": "popup/popup.html",
       "default_icon": {
